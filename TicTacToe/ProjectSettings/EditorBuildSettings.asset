@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/LevelSelect.unity
+    guid: 2b08db991cf07dd41b4834f631259fb4
+  - enabled: 1
+    path: Assets/Scenes/CompVsPlayer.unity
+    guid: 1a36379a79ed73e41ba4323ad8838351
+  - enabled: 1
+    path: Assets/Scenes/TwoPlayerMatch.unity
+    guid: d3115df8edeee1348b0b77faa2159146
+  - enabled: 1
+    path: Assets/Scenes/Multiplayer.unity
+    guid: 479575145d03ec340adc4dbe79baf7c5
+  - enabled: 1
+    path: Assets/Scenes/ThreePlayerMatch.unity
+    guid: fc1cc5783323ca940af9ebe117251261
+  m_configObjects: {}
