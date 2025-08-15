@@ -1,7 +1,8 @@
+using Photon.Pun;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MyScenesManager : MonoBehaviour
+public class MyScenesManager : MonoBehaviourPunCallbacks
 {
     public static MyScenesManager instance;
 
@@ -17,6 +18,9 @@ public class MyScenesManager : MonoBehaviour
     }
     public void LoadLevelSelectScene()
     {
+        if (PhotonNetwork.IsConnected)
+            PhotonNetwork.Disconnect();
+
         SceneManager.LoadScene(((int)Scene.LevelSelect));
     }
     public void LoadMainMenuScene()

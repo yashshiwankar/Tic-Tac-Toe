@@ -21,6 +21,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Multiplayer.unity
     guid: 479575145d03ec340adc4dbe79baf7c5
   - enabled: 1
-    path: Assets/Scenes/ThreePlayerMatch.unity
+    path: Assets/Scenes/TwoPlayerMatchMulitplayer.unity
     guid: fc1cc5783323ca940af9ebe117251261
   m_configObjects: {}
